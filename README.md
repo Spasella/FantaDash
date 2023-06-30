@@ -34,16 +34,6 @@ Open a web browser and navigate to http://localhost:8050 to access the web appli
 # Usage
 Once the application is running, you can use it to visualize and analyze the provided data. The application provides various charts and graphs to explore different aspects of the data. The user interface allows you to select specific parameters, such as stabilimento (facility), fascia_oraria (time slot), and anno (year), to filter and customize the displayed data.
 
-# Features
-The project includes the following features:
-
-✔ Number Cards Dataset: Displays the total energy consumption (consumi_kw_h) for each stabilimento (facility) and fascia_oraria (time slot).
-✔ Linebar Chart Dataset: Shows a bar chart that visualizes the energy consumption (consumi_kw_h) over time (date) for specific stabilimenti (facilities) and fascia_oraria (time slot).
-✔ Radar Weekdays Chart Dataset: Presents a line chart that represents the energy consumption (consumi_kw_h) for different stabilimenti (facilities) across different weekdays (giorno_sett) and hour groups (hour_group).
-✔ Radar Months Chart Dataset: Displays a line chart that shows the energy consumption (consumi_kw_h) for different stabilimenti (facilities) across different months (mese) and hour groups (hour_group).
-✔ Linebar Monthly Dataset: Provides a bar chart that visualizes the energy consumption (consumi_kw_h) for specific stabilimenti (facilities) over different months (mese) and fascia_oraria (time slot).
-# Data Source
-The data used in this project is fetched from a CSV file hosted on GitHub. The data contains hourly energy consumption records for different facilities and time slots. The CSV file is read into a pandas DataFrame for further processing and analysis.
 
 # Dependencies
 The project relies on the following dependencies:
