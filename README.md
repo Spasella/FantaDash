@@ -31,9 +31,6 @@ Copy code
 python app.py
 Open a web browser and navigate to http://localhost:8050 to access the web application.
 
-# Usage
-Once the application is running, you can use it to visualize and analyze the provided data. The application provides various charts and graphs to explore different aspects of the data. The user interface allows you to select specific parameters, such as stabilimento (facility), fascia_oraria (time slot), and anno (year), to filter and customize the displayed data.
-
 
 # Dependencies
 The project relies on the following dependencies:
